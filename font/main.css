@@ -1,0 +1,15 @@
+body {
+    font-family: Josefin Sans, sans-serif;
+}
+/* .header { */
+    width: 1770px;
+    height: 650px;
+    background-image: url('/img/relaxing-bath.jpg');
+/* } */
+.header-topbar .grid {
+    background-color: orange;
+    font-size: 30px;
+    margin: 0;
+    height: 650px;
+
+}

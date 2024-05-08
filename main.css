@@ -1,0 +1,265 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    width: 100%px;
+}
+.header {
+    height: 750px;
+    width: 100%;
+    background-image: url('./img/relaxing-bath.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bwp-header {
+    height: 132px;
+    background-color: #776c67;
+    font-size: 14px;
+}
+.bwp-topbar {
+    border-bottom: 1px solid hsla(0, 0%, 100%, .15);
+}
+.header-topbar {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    margin-left: 20px;
+   
+}
+.header-topbar-icon {
+    padding-right: 10px;
+}
+.header-topbar-location {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+
+}
+.header-topbar-email {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.header-menu {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.menu-gift-link {
+    color: #fff;
+    text-decoration: none;
+}
+.header-topbar-separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 15px;
+    border-left: 1px solid #8b827e;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu-gift {
+    position: relative;
+}
+.menu-faq {
+    padding-left: 30px;
+}
+.header-menu-bg {
+    padding-top: 30px;
+}
+
+.header-menu-logoimg {
+    height: 20px;
+    padding-left: 15px;
+}
+.header-menu-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+.header-wrapper-menu {
+    padding-left: 50px;
+    color: #fff;
+}
+.header-wrapper-menu-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    /* display: block; */
+    padding: 5px 0px;
+}
+
+.header-wrapper-menu-link::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    bottom: 0px;
+    left: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.header-wrapper-menu-link:hover::after {
+    transform: scaleX(1);
+}
+.header-wrapper-menu-icon {
+    padding-left: 5px;
+    font-size: 8px;
+}
+.header-page-link {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 82px;
+    padding-right: 30px;
+    font-size: 20px;
+    transition: tranform linear 0.5s;
+    will-change: tranform;
+}
+.header-page-link-search:hover,
+.header-page-link-user:hover,
+.header-page-link-star:hover,
+.header-page-link-cart:hover {
+    transform: translateY(-2px);
+}
+.header-page-link-icon {
+    margin: 0 10px;
+    color: #fff;
+}
+.header-page-link-search-link {
+    text-decoration: none;
+}
+.header-page-link-cart {
+    position: relative;
+}
+.header-page-link-cart-notice {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    color: #000;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 13px;
+    top: 16px;
+    right: -14px;
+}
+/* slider */
+.slider {
+    height: 615px;
+    background-color: #fff;
+
+}
+.slider-heading-title {
+    font-size: 36px;
+    text-align: center;
+    padding: 70px 0 40px 0;
+}
+.slider-list-item-title:hover {
+    text-decoration: underline;
+}
+.slider-list {
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 0 10px;
+    text-align: center;
+    /* max-width: 800px; */
+    margin-left: 25px;
+}
+.slider-list-item {
+   overflow: hidden;
+   /* padding: 0 15px; */
+   width: 100%;
+   
+}
+.slider-list-item-link {
+    text-decoration: none;
+    overflow: hidden;
+}
+
+
+.slider-item-img {
+    width: 240px;
+    display: block;
+    /* width: 100%; */
+    /* padding: 0 15px; */
+
+    transition: all 0.5s ease-in-out;
+}
+.slider-item-img:hover {
+    transform: scale(1.1);
+}
+.slider-list-item-title {
+    margin-top: 30px;
+    color: #000;
+}
+/* banner */
+.slider-banner {
+    width: 100%;
+}
+.slider-banner-list {
+   display: flex;
+   justify-content: space-between;
+   padding: 100px 0;
+   list-style: none;
+
+}
+.slider-banner-list-item {
+    overflow: hidden;
+    position: relative;
+
+}
+.slider-banner-img {
+    max-width: 670px;
+    width: 100%;
+    transition: all 0.4s ease-in;
+    display: block;
+}
+.slider-banner-img:hover {
+    transform: scale(1.1);
+}
+.slider-banner-infor {
+    position: absolute;
+    bottom: 200px;
+    text-align: center;
+    color: #fff;
+    margin-left: 100px;
+}
+.slider-banner-subtitle {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.slider-banner-title {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 400;
+
+}
+.slider-banner-button {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 5px;
+    position: relative;
+}
+.slider-banner-button::before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 120px;
+    transform: scaleX(0.5);
+    border-bottom: 2px solid #fff;
+    padding: 5px;
+    transition: all 0.5s ease-out;
+
+}
+.slider-banner-button:hover::before {
+    transform: scaleX(1);
+}
+
