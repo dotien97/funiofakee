@@ -31,3 +31,12 @@
 .icon-star:before {
   content: "\e900";
 }
+.icon-user:before {
+  content: "\e900";
+}
+.icon-search:before {
+  content: "\e901";
+}
+.icon-star:before {
+  content: "\1f312";
+}
